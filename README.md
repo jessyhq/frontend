@@ -1,23 +1,15 @@
 # Jessy
+Jessy is a digital workspace for students ard professionals to organize their life in one place. Available at [jessy.app](https://jessy.app).
 
-## Roadmap
+# Application Architecture
+Jessy can be used with many modular extensions (tools like Tasks, Music, etc.) that leverage the underlying Project-Board-Extension architecture. Projects are the top level folders that have Boards as subfolders. Boards contain Extension-specific data, that can be cross-shared between other Extensions. This means that you can reference a task from the Tasks extension in your Notes extension, and so on.
 
-- 7th January, 2023
-  - Tasks
-    - Projects Tab
-      - [x] Search box is functional and can be used to search for projects, boards
-      - [/] **+ add a new project** is functional
-      - [ ] **+ add a new board** is functional
-      - [ ] Footer displays accurate project count, work on last edited later
-    - Tasks Tab
-      - [ ] **add a new task** is functional
-      - [ ] Footer displays accurate task count, work on last edited later
-    - Task Tab
-      - [ ] All input fields are functional
-      - [ ] update **add a subtask** to a better ui
-      - [ ] Footer displays accurate subtask count, work on last edited later
-    - [ ] Minimizing the window places it on the bottom left of the screen after reducing height to 0 and hiding footer
-  - Store
-    - [ ] Hook up data from Tasks to Store
-  - IndexedDB
-    - [ ] Hook up Store and App to IDB
+# Extensions
+## Tasks ([@diragb](https://github.com/diragb))
+Currently WIP, **Tasks** lets you manage tasks. This currently does not leverage the PBE.
+
+## Music ([@Sharan420](https://github.com/Sharan420))
+Currently WIP, **Music** lets you play any song or playlist from Apple Music, SoundCloud, Spotify, or any other source.
+
+# WIP
+## Unify Colors To Create Updatable Theme
