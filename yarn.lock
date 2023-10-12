@@ -861,6 +861,11 @@ semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
+seroval@^0.10.4:
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/seroval/-/seroval-0.10.4.tgz#7c47761d7651b2471bcdb44906213df4114bb1d0"
+  integrity sha512-TdaE9JkoATjKu+vjwllieX8zWyBTUVxbgWDnOsDJFfmKbM7vLSukuCXuD3pO3kkCtX4daywOW8ps2VCdPhS8/w==
+
 seroval@^0.5.0:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/seroval/-/seroval-0.5.1.tgz#e6d17365cdaaae7e50815c7e0bcd7102facdadf3"
@@ -892,6 +897,14 @@ solid-js@^1.5.1:
     csstype "^3.1.0"
     seroval "^0.5.0"
 
+solid-js@^1.7.8:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.8.1.tgz#0568041f6dfca099ae48b94b2de1711974d25694"
+  integrity sha512-HU4tB/vWY5/0P9GzbvePjK1aucNqUcF1XlAirZBjKkrkWG8XNIN9HSjscTC/nbl3A6JWjrW+OLcPEvWxsMhdng==
+  dependencies:
+    csstype "^3.1.0"
+    seroval "^0.10.4"
+
 solid-refresh@^0.5.0:
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/solid-refresh/-/solid-refresh-0.5.3.tgz#41b97fa1ee655d86125abda8e398861683f926b6"
@@ -900,6 +913,13 @@ solid-refresh@^0.5.0:
     "@babel/generator" "^7.21.1"
     "@babel/helper-module-imports" "^7.18.6"
     "@babel/types" "^7.21.2"
+
+solid-spotify-embed@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/solid-spotify-embed/-/solid-spotify-embed-0.1.0.tgz#509f8562f731806d0f8244ac4908241a7a3f7fd4"
+  integrity sha512-3uLn2kXsv1Z/F+fnl62axjpOS+nBQbR6Lz7gm6f+6QX2TVPgKpiPCEQcGwktVi0Wk9N0TSqDbBw8fee3DjBNdQ==
+  dependencies:
+    solid-js "^1.7.8"
 
 solid-styled-components@^0.28.5:
   version "0.28.5"

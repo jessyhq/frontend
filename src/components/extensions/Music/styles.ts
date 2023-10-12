@@ -29,25 +29,3 @@ export const Wrapper = styled.div<{
     ) ? 'all 0.25s ease' : 'none'
   };
 `
-
-export const ScrollableBody = styled.div`
-  height: 100%;
-  overflow: hidden;
-`
-
-export const TabsHolder = styled.div<{
-  width: number
-  navLevel: number
-  isMaximized: boolean
-}>`
-  display: flex;
-  width: ${ props => (props.isMaximized ? window.innerWidth : props.width) * 3 }px;
-  height: 100%;
-  transform: ${ props => props.isMaximized ? `translateX(${ props.navLevel * -window.innerWidth }px)` : `translateX(${ props.navLevel * -20 * 16 }px)` };
-  transition: all 0.25s ease;
-`
-
-export const ConditionalVisibility = styled.div<{ show: boolean }>`
-  filter: opacity(${ props => props.show ? 1 : 0 });
-  transition: all 0.25s ease;
-`

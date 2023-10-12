@@ -7,6 +7,7 @@ import createArbitraryDragHandlers from './utils/drag-drop/arbitrary'
 
 // Components:
 import Tasks from './components/extensions/Tasks'
+import Music from './components/extensions/Music'
 import Footer from './components/utils/Footer'
 
 
@@ -29,9 +30,10 @@ const App: Component = () => {
   // Return:
   return (
     <Wrapper>
-      <DragDropProvider onDragMove={ onDragMove } onDragEnd={ onDragEnd }>
+      <DragDropProvider onDragMove={onDragMove} onDragEnd={onDragEnd}>
         <DragDropSensors />
-        <Tasks id={ 1 } />
+        <Tasks id={1} />
+        <Music id={2} />
       </DragDropProvider>
       {/* <Footer info='123' metaInfo='23' /> */}
     </Wrapper>
